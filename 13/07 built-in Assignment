@@ -1,0 +1,755 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMk2YCiNItZUPa0HvKH3MhS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/pranuk050-pixel/Npraveen_DE2026/blob/main/13/07%20built-in%20Assignment\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "exHNpT1Qchh7"
+      },
+      "outputs": [],
+      "source": [
+        "#1.Write a Python program to find the absolute value of a given number using abs().\n",
+        "num=[2.656]\n",
+        "abs(num[0])\n",
+        "print(abs(num[0]))\n",
+        "2.656 -absolute_value\n",
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 2.Write a Python program to round a decimal number to the nearest integer using round().\n",
+        "num=(2.559)\n",
+        "print(round(2.559))"
+      ],
+      "metadata": {
+        "id": "4vIEDhOycoY9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#3.Write a Python program to round a number to 2 decimal places using round().\n",
+        "\n",
+        "num=(2.559)\n",
+        "print(round(2.559,2))\n"
+      ],
+      "metadata": {
+        "id": "7oYrLIjacrXc"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#4.Write a Python program to find the power of a number using pow().\n",
+        "a=(2)\n",
+        "b=(3)\n",
+        "pow(a,b)\n",
+        "print(pow(a,b))"
+      ],
+      "metadata": {
+        "id": "PspJIHw1ctjB"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#5.Write a Python program to find the maximum value among three numbers using max()\n",
+        "num=(1,2,3)\n",
+        "max(num)\n",
+        "print(max(num))"
+      ],
+      "metadata": {
+        "id": "ZVEPQu06cyPb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#6.Write a Python program to find the minimum value among three numbers using min()\n",
+        "num=(1,2,3)\n",
+        "min(num)\n",
+        "print(min(num))"
+      ],
+      "metadata": {
+        "id": "ZiL1lwzRc1ZB"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#7.Write a Python program to calculate the sum of elements in a list using sum().\n",
+        "num=(5,5,5,5)\n",
+        "sum(num)\n",
+        "print(sum(num))"
+      ],
+      "metadata": {
+        "id": "hIkdIkmyc3eA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#8.Write a Python program to find the length of a string using len().\n",
+        "Name=\"Edukron institute is for Data scince and Data Engineering\"\n",
+        "len(Name)\n",
+        "print(len(Name))"
+      ],
+      "metadata": {
+        "id": "4qst2daLc6aD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#9.Write a Python program to find the number of elements in a list using len().\n",
+        "num=(1,2,3,4,5,6,7,8,9)\n",
+        "count=len(num)\n",
+        "print(count)"
+      ],
+      "metadata": {
+        "id": "Cig_S6mCc8Q4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#10.Write a Python program to convert an integer into a string using str().\n",
+        "a=20\n",
+        "str(a)\n",
+        "print (type(str(a)))"
+      ],
+      "metadata": {
+        "id": "f0y8EUJmc-mo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#11.Write a Python program to convert a string containing a number into an integer using int().\n",
+        "a=\"20\"\n",
+        "int(a)\n",
+        "type(int(a))"
+      ],
+      "metadata": {
+        "id": "EJT9oZfLdAzc"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#12.Write a Python program to convert an integer into a floating-point number using float()\n",
+        "a=20\n",
+        "float_num=(float(a))\n",
+        "print(float_num)\n",
+        "print(type(float_num))"
+      ],
+      "metadata": {
+        "id": "3OhIMS_GdDwd"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#13.Write a Python program to check the data type of a variable using type()\n",
+        "\n",
+        "a='Edukron'\n",
+        "b=4\n",
+        "c=2.6\n",
+        "print(type(a))\n",
+        "print(type(b))\n",
+        "print(type(c))"
+      ],
+      "metadata": {
+        "id": "cOzNCk52dGCT"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#14.Write a Python program to convert a number into binary format using bin().\n",
+        "Num=60\n",
+        "bin(Num)\n",
+        "print(bin(Num))\n"
+      ],
+      "metadata": {
+        "id": "naWq7DOXdI24"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#15.Write a Python program to convert a number into hexadecimal format using hex()\n",
+        "Num=60\n",
+        "hex(Num)\n",
+        "print(hex(Num))"
+      ],
+      "metadata": {
+        "id": "hpFcdfOydLPY"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#16.Write a Python program to convert a number into octal format using oct().\n",
+        "Num=60\n",
+        "oct(Num)\n",
+        "print((oct(Num)))"
+      ],
+      "metadata": {
+        "id": "UTI1NOosdNjJ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#17.Write a Python program to find the Unicode value of a character using ord().\n",
+        "a=\"E\"\n",
+        "print(ord(a))"
+      ],
+      "metadata": {
+        "id": "GscE8HwTdSDl"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#18.Write a Python program to find the character of a Unicode value using chr()\n",
+        "unicode_value=1\n",
+        "print(chr(unicode_value))"
+      ],
+      "metadata": {
+        "id": "oo8Mn3zEdULz"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#19.Write a Python program to check whether a value is true or false using bool().\n",
+        "a=10\n",
+        "b=0\n",
+        "print(bool(a))\n",
+        "print(bool(b))"
+      ],
+      "metadata": {
+        "id": "KpoppRG0dXeH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#20.Write a Python program to sort a list of numbers using sorted()\n",
+        "list_numbers=[2,6,1,25,0]\n",
+        "Sorted_num=sorted(list_numbers)\n",
+        "print(Sorted_num)"
+      ],
+      "metadata": {
+        "id": "KVAYS3sddZpb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#21.Write a Python program to reverse a list using reversed().\n",
+        "list_numbers=[2,6,1,25,0]\n",
+        "list_numbers.reverse()\n",
+        "print(list_numbers)"
+      ],
+      "metadata": {
+        "id": "F7IOGrl5dbyA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#22.Write a Python program to generate numbers from 1 to 10 using range().\n",
+        "\n",
+        "print(tuple(range(1,11)))\n",
+        "for i in range(1,11):\n",
+        "    print(i)"
+      ],
+      "metadata": {
+        "id": "bit5xy56dlBq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#23.Write a Python program to display the index and value of list elements using enumerate()\n",
+        "x=\"data\"\n",
+        "for index,value in enumerate(x):\n",
+        "  print(index,value)"
+      ],
+      "metadata": {
+        "id": "-CRKF1LUdnu8"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#24.Write a Python program to combine two lists using zip()\n",
+        "x=[\"data\" , \"engineering\"]\n",
+        "y=[\"engineering\", \"data\"]\n",
+        "list(zip(x,y))\n"
+      ],
+      "metadata": {
+        "id": "VSK7xICQdqyc"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#25.Write a Python program to apply a function to all elements of a list using map()\n"
+      ],
+      "metadata": {
+        "id": "VYNQNWg5dsva"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#26.Write a Python program to filter even numbers from a list using filter().\n",
+        "def is_even(n):\n",
+        "  return n % 2 == 0\n",
+        "x=[1,2,3,4,5,6,7]\n",
+        "even_numbers=list(filter(is_even,x))\n",
+        "print(even_numbers)\n"
+      ],
+      "metadata": {
+        "id": "3syUDPeIdwzh"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#27.Write a Python program to check if all elements in a list are true using all().\n",
+        "\n",
+        "Num=[1,2,3,4,5]\n",
+        "print(all(Num))\n",
+        "Num1=[0,1,2,3,4,5]\n",
+        "print(all(Num1))"
+      ],
+      "metadata": {
+        "id": "ZCHoyv93dzQ1"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#28. Write a Python program to check if any element in a list is true using any()\n",
+        "\n",
+        "Num=[1,2,3,4,5]\n",
+        "any(Num)\n",
+        "print(any(Num))\n",
+        "Num1=[0,1,2,3,4,5]\n",
+        "print(any(Num1))"
+      ],
+      "metadata": {
+        "id": "wO7BVUG2d178"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#29.Write a Python program to find the length of a tuple using len().\n",
+        "Num=(1,2,3,4,5)\n",
+        "len(Num)\n",
+        "print(len(Num))"
+      ],
+      "metadata": {
+        "id": "_ZnEAQLtd4At"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#30.Write a Python program to find the largest number in a user-given list using max().\n",
+        "Num=(1,2,3,4,5)\n",
+        "largest= max(Num)\n",
+        "print('the largest number is:',largest)"
+      ],
+      "metadata": {
+        "id": "uWie5e6qd6hY"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#31.Write a Python program to find the smallest number in a user-given list using min()\n",
+        "Num=(1,2,3,4,5)\n",
+        "Smallest=min(Num)\n",
+        "print(\"the smallesst number is:\" , Smallest)"
+      ],
+      "metadata": {
+        "id": "ZyjugRPld80T"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "  #32.Write a Python program to calculate the total marks of students using sum().\n",
+        "\n",
+        "Marks=(60,78,45,36)\n",
+        "total_marks=sum(Marks)\n",
+        "print(total_marks)\n"
+      ],
+      "metadata": {
+        "id": "l2_NBwuDd_wF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#33.Write a Python program to calculate the absolute difference between two numbers using abs()\n",
+        "\n",
+        "a=20\n",
+        "b=45\n",
+        "absolute_diff= abs(a-b)\n",
+        "print(absolute_diff)\n"
+      ],
+      "metadata": {
+        "id": "VKH_EDMheCh1"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#34.Write a Python program to calculate the square of a number using pow()\n",
+        "a=2\n",
+        "pow(a,2)\n",
+        "print(pow(a,2))"
+      ],
+      "metadata": {
+        "id": "sc6okzLieE0A"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#35.Write a Python program to calculate the cube of a number using pow()\n",
+        "a=2\n",
+        "cube=pow(a,3)\n",
+        "print(cube)"
+      ],
+      "metadata": {
+        "id": "BVqx4FraeJ43"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#36.Write a Python program to round a floating-point value to three decimal places\n",
+        "\n",
+        "Num=2.5686\n",
+        "Rounded_value=round(Num, 3)\n",
+        "print(Rounded_value)\n",
+        "print(round(Num,3))"
+      ],
+      "metadata": {
+        "id": "0LIkGAoNeL-M"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#37.Write a Python program to convert user input into an integer using int().\n",
+        "\n",
+        "x=50\n",
+        "res=int(x)\n",
+        "print(\"the integer is :\",res)"
+      ],
+      "metadata": {
+        "id": "ZBOavZ-SeN-8"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#38.Write a Python program to convert user input into a float using float().\n",
+        "x=50\n",
+        "res=float(x)\n",
+        "print(\"the float is :\",res)"
+      ],
+      "metadata": {
+        "id": "I8SFdY8SeRxR"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#39.Write a Python program to display the type of multiple variables using type()\n",
+        "\n",
+        "a='Edukron'\n",
+        "b=4\n",
+        "c=2.6\n",
+        "print(type(a))\n",
+        "print(type(b))\n",
+        "print(type(c))"
+      ],
+      "metadata": {
+        "id": "FOh_CyV7eU1G"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#40.Write a Python program to count the number of characters in a sentence using len()\n",
+        "num=(1,2,3,4,5,6,7,8,9,10)\n",
+        "count=len(num)\n",
+        "print(count)\n"
+      ],
+      "metadata": {
+        "id": "6r31GnyfeYHs"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#41.Write a Python program to find the highest temperature from a list using max()\n",
+        "\n",
+        "temperature=(40,20,30,50)\n",
+        "highest_temp=max(temperature)\n",
+        "print(highest_temp)\n"
+      ],
+      "metadata": {
+        "id": "xdLVo5SbecgZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#42.Write a Python program to find the lowest price from a list using min().\n",
+        "price=(40,20,30,50)\n",
+        "lowest_price=min(price)\n",
+        "print(lowest_price)"
+      ],
+      "metadata": {
+        "id": "Gzy_LrEhefOL"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#43.Write a Python program to remove false values from a list using filter()\n",
+        "my_list = [0, 1, False, 2, '', 3, None, [], 4]\n",
+        "filtered_list = list(filter(None, my_list))\n",
+        "\n",
+        "print(\"List after removing false values:\", filtered_list)"
+      ],
+      "metadata": {
+        "id": "usCMVTjbehQb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#44.Write a Python program to create a list of squares using map()"
+      ],
+      "metadata": {
+        "id": "X-SkbkFtej9x"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#45.Write a Python program to create a dictionary from two lists using zip()\n",
+        "keys = ['a', 'b', 'c']\n",
+        "values = [1, 2, 3]\n",
+        "my_dict = dict(zip(keys, values))\n",
+        "print(my_dict)"
+      ],
+      "metadata": {
+        "id": "R4yXoa7PemTF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#46.Write a Python program to display numbers in reverse order using range()\n",
+        "\n",
+        "for i in range(10, 0, -1):\n",
+        "    print(i)"
+      ],
+      "metadata": {
+        "id": "XBZ-yzmWepY_"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Num=25\n",
+        "print(bin(Num))\n",
+        "print(oct(Num))\n",
+        "print(hex(Num))"
+      ],
+      "metadata": {
+        "id": "BZTgXEbTerLS"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#48.  Write a Python program to check whether a list contains any positive values using any().\n",
+        "A= [1, 2, 3, 4, 5,-1]\n",
+        "print(any(A))"
+      ],
+      "metadata": {
+        "id": "ZWRZDSXoeztD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#49.Write a Python program to check whether all numbers in a list are positive using all().\n",
+        "x=[1,5,8,9]\n",
+        "print(all(x))"
+      ],
+      "metadata": {
+        "id": "mUxgJYbQe14y"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#50.Write a Python program that uses multiple built-in functions together to process a list of numbers.\n",
+        "\n",
+        "x=(1,2,3,4)\n",
+        "print(sum(x))\n",
+        "print(len(x))\n",
+        "print(min(x))\n",
+        "print(max(x))\n",
+        "print(sorted(x))\n",
+        "print(all(x))\n",
+        "print(any(x))"
+      ],
+      "metadata": {
+        "id": "a44UbKk3e4Cw"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
